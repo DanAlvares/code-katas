@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/group-anagrams/description/
+
 function groupAnagrams(strs: string[]): string[][] {
   const stringsMap = new Map<string, string[]>();
 

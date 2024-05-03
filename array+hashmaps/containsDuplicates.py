@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/contains-duplicate/description/
+
 class SolutionOne:
     def containsDuplicate(self, nums: List[int]) -> bool:
         memo = set()
