@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/contains-duplicate/description/
 
+from typing import List
+
 class SolutionOne:
     def containsDuplicate(self, nums: List[int]) -> bool:
         memo = set()
@@ -8,9 +10,7 @@ class SolutionOne:
                 return True
             memo.add(num)
         return False
-    
-	
-	
+
 class SolutionTwo:
     def containsDuplicate(self, nums: List[int]) -> bool:
         nums.sort()
